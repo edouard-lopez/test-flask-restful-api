@@ -1,4 +1,4 @@
-# Test Flask RESTful API
+# Test Flask RESTful API [![Build Status](https://travis-ci.org/edouard-lopez/test-flask-restful-api.svg?branch=master)](https://travis-ci.org/edouard-lopez/test-flask-restful-api)
 
 > Minimal setup to test Flask API using Flask-RESTful and unittest
 
