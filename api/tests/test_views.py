@@ -1,7 +1,7 @@
 from pprint import pprint
 from unittest import TestCase
 
-from views import app
+from api.views import app
 
 class TestAPIIntegrations(TestCase):
     def setUp(self):

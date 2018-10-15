@@ -19,13 +19,13 @@
 
     source env/bin/activate
     cd ./api/
-    python3 -m unittest --verbose tests.test_views
+    python3 -m unittest --verbose api.tests.test_views
 
 One test passing :clap:
 
-    test_GET_api_root_endpoint (tests.test_views.TestAPIIntegrations) ... ok
+    test_GET_api_root_endpoint (api.tests.test_views.TestAPIIntegrations) ... ok
 
     ----------------------------------------------------------------------
-    Ran 1 test in 0.008s
+    Ran 1 test in 0.009s
 
     OK

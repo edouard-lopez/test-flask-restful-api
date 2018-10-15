@@ -6,6 +6,6 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - python3 -m unittest --verbose tests.test_views 
+  - python3 -m unittest --verbose api.tests.test_views 
 cache:
 - pip
